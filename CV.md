@@ -8,7 +8,7 @@ _**Phone**_: +375 29 8541033
 
 _**Email:**_ artem1anashkin@gmail.com
 
-[Linkedin]('https://www.linkedin.com/in/artem-anashkin-848476229/')
+[Linkedin](https://www.linkedin.com/in/artem-anashkin-848476229/)
 
 ---
 
