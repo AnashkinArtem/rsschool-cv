@@ -2,7 +2,7 @@
 ### Junior Frond End Developer
 ---
 
-### Contacts:
+### **Contacts:**
 
 _**Phone**_: +375 29 8541033
 
@@ -29,6 +29,25 @@ I am confident that my skills, passion, and dedication make me a valuable asset 
 - JavaScript
 
 ---
+
+### **Code Example**
+
+```javascript
+function multiply(a, b){
+  return a * b
+}
+```
+
+---
+
+### **Courses**
+
+[Udemy: WEB Developer](https://disk.yandex.ru/d/skGXvBCWcxsEcA)
+
+[TMS: Frond End Developer](https://disk.yandex.ru/d/pNv3zKaUAVwcrg)
+
+---
+
 
 ### **Languages**
 
