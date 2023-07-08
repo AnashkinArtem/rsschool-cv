@@ -4,7 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>
+            <a href="https://app.rs.school/" target="_blank" rel="noopener noreferrer" class="header__title">The Rolling Scopes School</a>
+        </h1>
+    </header>
+    <main>
+        <nav>
+            <ul class="navbar">
+                <li>
+                    <a href="#about" class="nav__link">about me</a>
+                </li>
+                <li>
+                    <a href="#skills" class="nav__link">skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav__link">porjects</a>
+                </li>
+                <li>
+                    <a href="#courses" class="nav__link">courses</a>
+                </li>
+                <li>
+                    <a href="#contacts" class="nav__link">contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <section  class="promo">
+            <h2>Hi, I'm Artem</h2>
+            <img src="/img/about__photo.jpg" alt="Photo" class="promo__img">
+            <h2>Junior Frond End Developer</h2>
+        </section>
+        <section id="about">
+            <h3>about me</h3>
+            <div class="about__text">
+                <p>
+                    Hello, my name is Artem Anashkin and I am a junior front-end developer. I have always been passionate about technology and creating visually appealing websites. 
+                </p>
+                <p>
+                    I have a strong foundation in HTML, CSS, and JavaScript, and I am constantly expanding my knowledge by learning new frameworks and libraries.                 
+                </p>
+                <p>
+                    I am a quick learner and enjoy working in a collaborative environment. I am always looking for new challenges to improve my skills and grow as a developer.
+                </p>
+                <p>
+                    I am confident that my skills, passion, and dedication make me a valuable asset to any team.
+                </p>
+            </div>
+        </section>
+        <section id="skills">
+            <h3>skills</h3>
+            <ul class="skills__list">
+                <li class="skills__item">
+                    <img src="img/skills/html.svg" alt="html" class="skills__icon">
+                    <span class="skills__descr">HTML</span>
+                </li>
+                <li class="skills__item">
+                    <img src="img/skills/css.svg" alt="css" class="skills__icon">
+                    <span class="skills__descr">CSS</span>
+                </li>
+                <li class="skills__item">
+                    <img src="img/skills/sass.svg" alt="scss" class="skills__icon">
+                    <span class="skills__descr">SCSS</span>
+                </li>
+                <li class="skills__item">
+                    <img src="img/skills/js.svg" alt="js" class="skills__icon">
+                    <span class="skills__descr">JavaScript</span>
+                </li>
+                <li class="skills__item">
+                    <img src="img/skills/git.svg" alt="git" class="skills__icon">
+                    <span class="skills__descr">Git</span>
+                </li>
+                <li class="skills__item">
+                    <img src="img/skills/react.svg" alt="react" class="skills__icon">
+                    <span class="skills__descr">React</span>
+                </li>
+                <li class="skills__item">
+                    <img src="img/skills/bootstrap.svg" alt="bootstrap" class="skills__icon">
+                    <span class="skills__descr">Bootstrap</span>
+                </li>
+                <li class="skills__item">
+                    <img src="img/skills/webpack.svg" alt="webpack" class="skills__icon">
+                    <span class="skills__descr">Webpack</span>
+                </li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h3>projects</h3>
+            <ul class="projects__list">
+                <li class="projects__item">
+                    <a href="https://agentbrows.vercel.app/" target="_blank" rel="noopener noreferrer" class="projects__link">
+                        <h4>Brows</h4>
+                        <img src="img/projects/brows.png" alt="brows" class="projects__img">
+                        <span class="projects__descr">React, TypeScript, Chakra UI, Framer-Motion</span>
+                    </a>
+                </li>
+                <li class="projects__item">
+                    <a href="https://weather-5yoq.vercel.app/" target="_blank" rel="noopener noreferrer" class="projects__link">
+                        <h4>Weather</h4>
+                        <img src="img/projects/weather.png" alt="weather" class="projects__img">
+                        <span class="projects__descr">React, Redux/Toolkit, TypeScript, Axios, Sass,
+                        Redux-Persist, React-Router-Dom, Moment
+                        </span>
+                    </a>
+                </li>
+                <li class="projects__item">
+                    <a href="https://github.com/AnashkinArtem/movie-find-app" target="_blank" rel="noopener noreferrer" class="projects__link">
+                        <h4>Movies</h4>
+                        <img src="img/projects/movies.png" alt="movies" class="projects__img">
+                        <span class="projects__descr">React, Axios, TypeScript, Sass, Redux</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="courses">
+            <h3>courses</h3>
+            <ul class="courses__links">
+                <li>
+                    <a href="https://disk.yandex.ru/d/skGXvBCWcxsEcA" target="_blank" rel="noopener noreferrer">
+                        <img src="img/courses/udemy.png" alt="udemy" class="courses__img">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://disk.yandex.ru/d/pNv3zKaUAVwcrg" target="_blank" rel="noopener noreferrer">
+                        <img src="img/courses/tms.jpg" alt="tms" class="courses__img">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer id="contacts">footer</footer>
 </body>
 </html>
